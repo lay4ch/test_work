@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://www.saturn.de",
+  "viewportHeight":1080,
+  "viewportWidth":1920,
+  "reporter":"spec",
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": "*.js",
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js",
+  "fixturesFolder": "./cypress-test/cypress/fixtures",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}
